@@ -1,0 +1,68 @@
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+.hero-img{
+    height: 70vh;
+    object-fit: cover;
+
+}
+
+.hero{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.hero-carousel-option{
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.795), rgba(5, 5, 5, 0.075))
+}
+
+
+/* content section */
+
+.content-first{
+    height: 300px;
+    padding: 20px
+}
+.content-group{
+    padding-left: 40px;
+    padding-right: 40px;
+    
+
+}
+
+.content-second{
+    height: 300px;
+  
+    padding: 20px;
+}
+
+.content-third{
+    height: 300px;
+   
+    padding: 20px 10px;
+}
+.card-one{
+    background-color: rgb(190, 26, 26);
+    border-radius: 20px;
+    height: 260px;
+    padding: 10px;
+    width: auto;
+    color: white;
+}
+.card-two{
+     background-color: rgb(7, 120, 148);
+    border-radius: 20px;
+    height: 260px;
+    width: auto;
+    padding: 10px;
+    color: white;
+}
+.card-three{
+     background-color: rgb(2, 170, 2);
+    border-radius: 20px;
+    height: 260px;
+    width: auto;
+    padding: 10px;
+    color: white;
+}
