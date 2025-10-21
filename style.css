@@ -16,6 +16,16 @@ body{
 .hero-carousel-option{
     background: linear-gradient(to top, rgba(0, 0, 0, 0.795), rgba(5, 5, 5, 0.075))
 }
+/* nav section */
+.nav-button-flex{
+    gap: 20px;
+}
+
+.toast-css{
+    position: fixed;
+    top: 0;
+    right: 0;
+}
 
 
 /* content section */
@@ -66,3 +76,54 @@ body{
     padding: 10px;
     color: white;
 }
+
+
+
+/* products section */
+.products-wrapper{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.product-card .product-img{
+    width: 250px;
+    object-fit: cover;
+}
+.rating-wrapper{
+    background-color: orange;
+    width: 80px;
+    height: 30px;
+    align-items: center;
+    justify-content: centre;
+    gap: 5px;
+    color: white;
+    border-radius: 10px;
+}
+
+.rating-wrapper .rating-img{
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.goto-button{
+    background-color: orange;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+.goto-button .goto-img{
+    width: 20px !important;
+    height: 20px !important;
+    object-fit: cover;
+}
+.product-card{
+    padding: 0;
+}
+.lower-links{
+    align-items: center;
+    justify-content: space-around;
+}
+
