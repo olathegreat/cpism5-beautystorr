@@ -2,6 +2,19 @@ body{
     width: 100%;
     overflow-x: hidden;
 }
+
+
+/* spinner section */
+.load-display{
+    display: flex;
+    height: 80vh ;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.137);
+}
+
+
+/* hero section */
 .hero-img{
     height: 70vh;
     object-fit: cover;
